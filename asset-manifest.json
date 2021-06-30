@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/apartments-test/static/css/main.012ede9a.chunk.css",
+    "main.js": "/apartments-test/static/js/main.55acce8d.chunk.js",
+    "main.js.map": "/apartments-test/static/js/main.55acce8d.chunk.js.map",
+    "runtime-main.js": "/apartments-test/static/js/runtime-main.c97b71d2.js",
+    "runtime-main.js.map": "/apartments-test/static/js/runtime-main.c97b71d2.js.map",
+    "static/js/2.367926cb.chunk.js": "/apartments-test/static/js/2.367926cb.chunk.js",
+    "static/js/2.367926cb.chunk.js.map": "/apartments-test/static/js/2.367926cb.chunk.js.map",
+    "index.html": "/apartments-test/index.html",
+    "static/css/main.012ede9a.chunk.css.map": "/apartments-test/static/css/main.012ede9a.chunk.css.map",
+    "static/js/2.367926cb.chunk.js.LICENSE.txt": "/apartments-test/static/js/2.367926cb.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/apartments-test/static/media/like-inactive.0892791c.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c97b71d2.js",
+    "static/js/2.367926cb.chunk.js",
+    "static/css/main.012ede9a.chunk.css",
+    "static/js/main.55acce8d.chunk.js"
+  ]
+}
