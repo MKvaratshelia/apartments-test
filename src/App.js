@@ -1,23 +1,27 @@
-import logo from './logo.svg';
+import React, { useState, useEffect } from 'react'
+import { GetService } from './services'
 import './App.css';
+import { Card } from './components/Card';
+
+const getApartments = new GetService()
 
 function App() {
+  const [cards, setCards] = useState([])
+
+  useEffect(() => {
+    getApartments.getResource('entities.json')
+      .then(data => setCards(data.apartments))
+  }, [])
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <section className="main">
+        <div className="main__cards-list cards-list">
+          {cards.map(card => {
+            return <Card key={card.id} card={card} />
+          })}
+        </div>
+      </section>
     </div>
   );
 }

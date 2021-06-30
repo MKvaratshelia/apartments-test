@@ -1,0 +1,46 @@
+{
+  "apartments": [
+    {
+      "image_url": "https://www.topdom.ru/gallery/flats/79/1-xm.jpg",
+      "title": "Супер квартира",
+      "description": "Это самая крутая квартира в городе, в ней есть все и даже больше",
+      "id": 2
+    },
+    {
+      "image_url": "https://www.topdom.ru/gallery/flats/79/1-xm.jpg",
+      "title": "Супер квартира",
+      "description": "Это самая крутая квартира в городе, в ней есть все и даже больше",
+      "id": 3
+    },
+    {
+      "image_url": "https://www.topdom.ru/gallery/flats/79/1-xm.jpg",
+      "title": "Cупер квартира",
+      "description": "Это самая крутая квартира в городе, в ней есть все и даже больше",
+      "id": 4
+    },
+    {
+      "image_url": "https://www.topdom.ru/gallery/flats/79/1-xm.jpg",
+      "title": "Супер квартира",
+      "description": "Это самая крутая квартира в городе, в ней есть все и даже больше",
+      "id": 5
+    },
+    {
+      "image_url": "https://www.topdom.ru/gallery/flats/79/1-xm.jpg",
+      "title": "Супер квартира",
+      "description": "Это самая крутая квартира в городе, в ней есть все и даже больше",
+      "id": 6
+    },
+    {
+      "image_url": "https://www.topdom.ru/gallery/flats/79/1-xm.jpg",
+      "title": "Супер квартира",
+      "description": "Это самая крутая квартира в городе, в ней есть все и даже больше",
+      "id": 7
+    },
+    {
+      "image_url": "https://www.topdom.ru/gallery/flats/79/1-xm.jpg",
+      "title": "Супер квартира",
+      "description": "Это самая крутая квартира в городе, в ней есть все и даже больше",
+      "id": 8
+    }
+  ]
+}
