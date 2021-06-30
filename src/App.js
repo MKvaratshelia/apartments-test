@@ -1,17 +1,17 @@
-import React, { useState, useEffect } from 'react'
-import { GetService } from './services'
+import React, { useEffect } from 'react'
+import { useSelector, useDispatch } from 'react-redux'
+import { getCards } from './store/actions/index'
+// import { GetService } from './services'
 import './App.css';
 import { Card } from './components/Card';
 
-const getApartments = new GetService()
-
 function App() {
-  const [cards, setCards] = useState([])
+  const cards = useSelector(store => store.cards)
+  const dispatch = useDispatch()
 
   useEffect(() => {
-    getApartments.getResource('entities.json')
-      .then(data => setCards(data.apartments))
-  }, [])
+    dispatch(getCards())
+  }, [dispatch])
 
   return (
     <div className="App">

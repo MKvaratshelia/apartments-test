@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 
-
 export const Card = ({ card }) => {
   const { title, description, image_url } = card
   const [liked, setLiked] = useState(false)
@@ -14,8 +13,10 @@ export const Card = ({ card }) => {
   return (
     <div className="cards-list__card card">
       <img src={image_url} alt={title} className="card__image" />
-      <h3 className="card__title">{title}</h3>
-      <p className="card__description">{description}</p>
+      <div className="card__content">
+        <h3 className="card__title">{title}</h3>
+        <p className="card__description">{description}</p>
+      </div>
       <button onClick={handleLikeClick} className={cls.join(' ')}></button>
     </div>
   )
