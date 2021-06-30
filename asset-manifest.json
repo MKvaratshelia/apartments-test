@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/apartments-test/static/css/main.012ede9a.chunk.css",
-    "main.js": "/apartments-test/static/js/main.55acce8d.chunk.js",
-    "main.js.map": "/apartments-test/static/js/main.55acce8d.chunk.js.map",
+    "main.js": "/apartments-test/static/js/main.b52dda15.chunk.js",
+    "main.js.map": "/apartments-test/static/js/main.b52dda15.chunk.js.map",
     "runtime-main.js": "/apartments-test/static/js/runtime-main.c97b71d2.js",
     "runtime-main.js.map": "/apartments-test/static/js/runtime-main.c97b71d2.js.map",
     "static/js/2.367926cb.chunk.js": "/apartments-test/static/js/2.367926cb.chunk.js",
@@ -16,6 +16,6 @@
     "static/js/runtime-main.c97b71d2.js",
     "static/js/2.367926cb.chunk.js",
     "static/css/main.012ede9a.chunk.css",
-    "static/js/main.55acce8d.chunk.js"
+    "static/js/main.b52dda15.chunk.js"
   ]
 }
